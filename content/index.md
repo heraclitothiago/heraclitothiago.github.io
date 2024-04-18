@@ -3,8 +3,6 @@ title: Bem-Vindo ao Nosso Portal Jurídico
 date: 2024-04-15
 ---
 
-## Seja Bem-Vindo ao Nosso Portal Jurídico
-
 Olá! Seja bem-vindo ao seu destino definitivo para descobrir e explorar o mundo jurídico. Aqui, você encontrará uma riqueza de informações, artigos especializados e dicas valiosas para navegar com sucesso pelo universo jurídico. Estamos comprometidos em fornecer-lhe recursos de qualidade que o ajudarão a compreender e enfrentar questões legais com confiança e segurança.
 
 ### O Que Você Encontrará Aqui:
