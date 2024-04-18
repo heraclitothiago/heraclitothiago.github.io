@@ -56,12 +56,10 @@ const defaultOptions: GraphOptions = {
   },
 }
 
-export default ((opts?: GraphOptions) => {
-  const Graph: QuartzComponent = ({ displayClass, cfg }: QuartzComponentProps) => {
-    const localGraph = { ...defaultOptions.localGraph, ...opts?.localGraph }
-    const globalGraph = { ...defaultOptions.globalGraph, ...opts?.globalGraph }
-    return (
-      <div class={classNames(displayClass, "graph")}>
+const graph = () => {
+  return(
+    <>
+       <div class={classNames(displayClass, "graph")}>
         <h3>{i18n(cfg.locale).components.graph.title}</h3>
         <div class="graph-outer">
           <div id="graph-container" data-cfg={JSON.stringify(localGraph)}></div>
@@ -95,6 +93,16 @@ export default ((opts?: GraphOptions) => {
           <div id="global-graph-container" data-cfg={JSON.stringify(globalGraph)}></div>
         </div>
       </div>
+    </>
+  )
+}
+
+export default ((opts?: GraphOptions) => {
+  const Graph: QuartzComponent = ({ displayClass, cfg }: QuartzComponentProps) => {
+    const localGraph = { ...defaultOptions.localGraph, ...opts?.localGraph }
+    const globalGraph = { ...defaultOptions.globalGraph, ...opts?.globalGraph }
+    return (
+     <></>
     )
   }
 
