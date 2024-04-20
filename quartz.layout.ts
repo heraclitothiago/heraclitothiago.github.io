@@ -7,6 +7,7 @@ export const sharedPageComponents: SharedLayout = {
   header: [],
   footer: Component.Footer({
     links: {
+      Explorar: "https://heraclitothiago-links.vercel.app/",
       GitHub: "https://github.com/heraclitothiago",
       Instagram: "https://www.instagram.com/thiagocastro.adv/",
       Facebook: "https://www.facebook.com/hera.thiago",
@@ -32,9 +33,9 @@ export const defaultContentPageLayout: PageLayout = {
     Component.DesktopOnly(Component.Explorer()),
   ],
   right: [
-    Component.Graph(),
     Component.DesktopOnly(Component.TableOfContents()),
     Component.Backlinks(),
+    Component.RecentNotes(),
   ],
 }
 
